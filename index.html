@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Continue</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        background: radial-gradient(circle at top, #0f0f0f, #000);
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 60px 20px;
+        color: #fff;
+    }
+
+    .emoji {
+        font-size: 48px;
+        margin-bottom: 10px;
+        animation: pulse 1.5s infinite;
+    }
+
+    h2 {
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        position: relative;
+        display: block;
+        width: 260px;
+        margin: 14px auto;
+        padding: 18px;
+        background: linear-gradient(45deg, #00ff4c, #00ffaa);
+        border-radius: 40px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        letter-spacing: 1px;
+        overflow: hidden;
+        box-shadow: 0 0 15px rgba(0,255,100,0.5);
+        transition: transform 0.2s ease;
+    }
+
+    .btn:hover {
+        transform: scale(1.06);
+    }
+
+    .btn::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(60deg, 
+            transparent, 
+            rgba(255,255,255,0.4), 
+            transparent);
+        animation: glow 2.5s linear infinite;
+    }
+
+    @keyframes glow {
+        0% { transform: translateX(-100%) rotate(0deg); }
+        100% { transform: translateX(100%) rotate(360deg); }
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.15); }
+        100% { transform: scale(1); }
+    }
+</style>
+</head>
+<body>
+
+<div class="emoji">❤️</div>
+<h2>Do you want to know more? 🤭</h2>
+
+<!-- GANTI SEMUA LINK MONETASI DI SINI -->
+<a class="btn" href="https://ouo.io/1">CONTINUE 1 >>></a>
+<a class="btn" href="https://ouo.io/2">CONTINUE 2 >>></a>
+<a class="btn" href="https://ouo.io/3">CONTINUE 3 >>></a>
+<a class="btn" href="https://ouo.io/4">CONTINUE 4 >>></a>
+<a class="btn" href="https://ouo.io/5">CONTINUE 5 >>></a>
+<a class="btn" href="https://ouo.io/6">CONTINUE 6 >>></a>
+<a class="btn" href="https://ouo.io/7">CONTINUE 7 >>></a>
+<a class="btn" href="https://ouo.io/8">CONTINUE 8 >>></a>
+<a class="btn" href="https://ouo.io/9">CONTINUE 9 >>></a>
+<a class="btn" href="https://ouo.io/10">CONTINUE 10 >>></a>
+
+</body>
+</html>
